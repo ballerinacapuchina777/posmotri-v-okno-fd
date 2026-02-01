@@ -32,6 +32,8 @@ html {
 .result {
   display: flex;
   flex-direction: column;
+  height: 456px;
+  width: 711px;
 }
 
 .search-form {
@@ -316,7 +318,7 @@ ol {
 
 .result__video-container .preloader,
 .content__list-container .preloader {
-  position: relative;
+  position: absolute;
   inset: 0;
   z-index: 2;
 }
