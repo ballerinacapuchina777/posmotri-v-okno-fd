@@ -25,15 +25,13 @@ html {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  width: 1140px;
+  inline-size: 1140px;
   gap: 30px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
-  height: 456px;
-  width: 711px;
 }
 
 .search-form {
@@ -65,7 +63,7 @@ html {
 .result__video-container {
   margin-bottom: 16px;
   inline-size: 711px;
-  block-size: 456px;
+  block-size: 386px;
   position: relative;
 }
 
@@ -316,9 +314,8 @@ ol {
   outline-offset: 2px;
 }
 
-.result__video-container .preloader,
-.content__list-container .preloader {
-  position: relative;
+.preloader {
+  position: absolute;
   inset: 0;
   z-index: 2;
 }
