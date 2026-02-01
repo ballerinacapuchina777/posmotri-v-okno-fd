@@ -318,7 +318,7 @@ ol {
 
 .result__video-container .preloader,
 .content__list-container .preloader {
-  position: absolute;
+  position: relative;
   inset: 0;
   z-index: 2;
 }
