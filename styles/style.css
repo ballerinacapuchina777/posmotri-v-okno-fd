@@ -193,11 +193,6 @@ ol {
   overflow: hidden;
 }
 
-.content__video-card-description {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
