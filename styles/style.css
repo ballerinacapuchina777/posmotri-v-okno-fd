@@ -19,7 +19,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-   margin-top: -10px;
+   margin-top: -12px;
 }
 
 .content {
@@ -316,7 +316,7 @@ ol {
 }
 
 .preloader {
-  position: absolute;
+  position: relative;
   inset: 0;
   z-index: 2;
 }
