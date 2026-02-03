@@ -125,6 +125,10 @@ ol {
   min-inline-size: 0;
 }
 
+.content__video-card-description-container:hover {
+  text-decoration: underline;
+}
+
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
@@ -159,11 +163,6 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
 .content__card-link:focus {
   outline: none;
 }
@@ -192,6 +191,7 @@ ol {
   -webkit-line-clamp: 4;
   overflow: hidden;
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -286,7 +286,7 @@ ol {
   border: 1px solid #fff;
   padding: 0;
   cursor: pointer;
-  block-size: 34px;
+  min-height: 34px;
 }
 
 .search-form__submit-button {
@@ -296,7 +296,6 @@ ol {
 
 .more-button {
   inline-size: 100%;
-  min-height: 34px;
 }
 
 .button:hover {
